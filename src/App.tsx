@@ -7,49 +7,6 @@ export function App() {
     <>
       <Header/>
       <Landing />
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
     </>
   );
 };
