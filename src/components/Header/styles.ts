@@ -8,9 +8,9 @@ export const Container = styled.header`
   z-index: 999;
 
   height: ${(props: ComponentProps) => props.transparentHeader ? '111px' : '66px'};
-  width: 100vw;
+  width: ${(props: ComponentProps) => props.transparentHeader ? '98.5vw' : '100vw'};
 
-  padding: 0 3rem;
+  padding: 0 4rem;
 
   display: flex;
   align-items: center;
