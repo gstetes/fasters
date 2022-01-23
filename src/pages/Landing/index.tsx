@@ -5,6 +5,8 @@ import { NelsonPresentation } from '../../components/NelsonPresentation';
 import { Qualifications } from '../../components/Qualifications';
 import { Conditions } from '../../components/Conditions';
 import { ProductsPresentation } from '../../components/ProductsPresentation';
+import { DepoimentsCarousel } from '../../components/DepoimentsCarousel';
+import { Contact } from '../../components/Contact';
 
 export function Landing() {
   return (
@@ -15,6 +17,8 @@ export function Landing() {
       <Qualifications />
       <Conditions />
       <ProductsPresentation />
+      <DepoimentsCarousel />
+      <Contact />
     </Container>
   )
 };

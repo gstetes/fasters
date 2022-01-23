@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+type ComponentProps = {
+  white?: boolean;
+};
+
 export const Container = styled.div`
   max-width: 200px;
 
@@ -13,7 +17,7 @@ export const Container = styled.div`
     font-size: 38px;
     font-family: 'Cormorant', sans-serif;
 
-    color: #014561;
+    color: ${(props: ComponentProps) => props.white ? '#F2F2F2' : '#014561'};
 
   };
 
